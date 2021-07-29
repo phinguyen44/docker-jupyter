@@ -16,5 +16,3 @@ RUN pip --no-cache-dir install numpy pandas seaborn sklearn jupyter
 # get Juypter open
 EXPOSE 8888
 CMD ["jupyter", "notebook", "--ip='*'", "--port=8888", "--no-browser", "--allow-root"]
-
-asdfadsfadsf
