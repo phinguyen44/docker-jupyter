@@ -35,7 +35,7 @@ Build:
 docker build -t phinguyen44/jupyter-workflow .
 
 # start + attach volume
-docker run -p 8888:8888 -v $(pwd):/src phinguyen44/jupyter-workflow
+docker run -p 8888:8888 -v $(pwd):/app phinguyen44/jupyter-workflow
 
 # upload to dockerhub
 docker login
